@@ -1,0 +1,2 @@
+# ecommerce-core
+smaple project
