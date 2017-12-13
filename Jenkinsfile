@@ -1,3 +1,8 @@
-def x=load('./sample.groovy')
-print 'something'
-print 'somethingelse'
+
+
+pipeline{
+  stages{
+    print 'something'
+    print 'somethingelse'
+  }
+}
