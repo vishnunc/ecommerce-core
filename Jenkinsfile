@@ -1,3 +1,3 @@
 print 'something'
 print 'somethingelse'
-x= load './sample.groovy'
+def x= load './sample.groovy'
