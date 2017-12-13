@@ -1,3 +1,3 @@
 print 'something'
 print 'somethingelse'
-x=load('sample.groovy')
+x= load './sample.groovy'
