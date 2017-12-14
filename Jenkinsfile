@@ -1,3 +1,3 @@
 script{
-  print 'some'
+  x = load 'sample.groovy'
 }
