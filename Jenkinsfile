@@ -4,4 +4,5 @@ node('master'){
   def a=load ('pipelines/sample.groovy')
   a.prep()
   a.build()
+  a.unittest()
 }
