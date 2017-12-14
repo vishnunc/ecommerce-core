@@ -3,7 +3,9 @@ pipeline{
   stages{
     stage('x'){
       steps{
+        script{
         a=load 'sample.groovy'
+        }
       }
     }
   }
