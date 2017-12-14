@@ -1,4 +1,4 @@
 node{
-  a=load 'sample.groovy'
+  def a=load ('sample.groovy')
   a.prep()
 }
