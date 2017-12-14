@@ -1,15 +1,16 @@
-def prep():
+def prep(){
 stage('prep'){
   print 'x'
 }
+}
 
-def build():
+def build(){
 stage('build'){
 }
-
-def unittest():
+}
+def unittest(){
 stage('unittests'){
 }
-
+}
 return this
 
