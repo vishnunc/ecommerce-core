@@ -4,5 +4,5 @@ node('master'){
   def a=load ('sample.groovy')
   parallel(
   a.prep(),
-    a.build()}
+    a.build())
 }
