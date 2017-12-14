@@ -1,4 +1,5 @@
 def prep(){
+  agent any
 stage('prep'){
   print 'x'
 }
